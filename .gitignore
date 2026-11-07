@@ -1,0 +1,30 @@
+# Out-of-tree build outputs
+/out32u/
+/out/
+
+# In-tree Kbuild outputs
+/.config
+/.config.old
+/include/config/
+/include/generated/
+/arch/*/include/generated/
+*.o
+*.a
+*.su
+.*.cmd
+*.o.d
+*.gcno
+*.gcda
+
+# Generated root images and build metadata
+/u-boot
+/u-boot.bin
+/u-boot.elf
+/u-boot.map
+/u-boot.srec
+/u-boot.sym
+/u-boot.cfg
+/u-boot.cfg.configs
+/System.map
+/Module.symvers
+/modules.order
